@@ -16,7 +16,8 @@ span {
 
 #result_emotion_name,
 #result_emotion_name2 {
-  color: black;
+  color: coral;
+  font-size: xx-large;
 }
 
 .heading {
