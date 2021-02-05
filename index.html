@@ -1,7 +1,7 @@
  
 <html>
   <head>
-    <title>Emotion To Emoji</title>
+    <title>HandGesture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,26 +18,23 @@
   
     <center>
       <br>
-      <h3 class="btn btn-warning heading"> Emotion To Emoji Website
+      <h3 class="btn btn-warning heading"> Hand Gesture
       <br>
-      <span>&#128522;</span>
-      <span>&#128512;</span>
-      <span>&#128532;</span>
-      <span>&#128546;</span>
-      <span>&#128545;</span>
-      <span>&#128557;</span>
+      <span>&#129304;</span>
+      <span>&#128077;</span>
+      <span>&#128078;</span>
+      <span>&#128076;</span>
+      <span>&#9996;</span>
     </h3>
-      <p style="font-size: 22px;">Take your selfie to generate emoji
-      	<br>
-        <b style="color: yellow">Are you Happy?</b>
-        <br>
-        <b style="color: blue">Are you Sad?</b>
-        <br>
-        <b style="color: red">Are you Angry?</b>
-        <br>
-        <b style="color: grey">Or are you Crying?</b>
-        <br>
-      </p>
+    <div>  
+    <p style="font-size: 22px;">Take your selfie to generate Gestures</p>
+      <p style="font-size: 22px;"> Our model is trained to recongnise these gestures</p>
+      <span>&#129304;</span>
+      <span>&#128077;</span>
+      <span>&#128078;</span>
+      <span>&#128076;</span>
+      <span>&#9996;</span>
+  </div>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Web Camera View </label>
@@ -47,13 +44,8 @@
       </div>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
-        <label>Prediction 1</label>
-        <p class="emotion" id="result_emotion_name"></p>
-        <p class="emoji" id="result_emoji"></p>
-        <br><br>
-        <label>Prediction 2</label>
-        <p class="emotion" id="result_emotion_name2"></p>
-        <p class="emoji" id="result_emoji2"></p>
+        <label>Prediction</label>
+        <p class="gesture" id="result_hand_gesture"></p>
       </div>
 
       <div class="col-md-4 col-sm-12 col-xs-12">

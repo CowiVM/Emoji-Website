@@ -14,10 +14,8 @@ span {
   height: 300px;
 }
 
-#result_emotion_name,
-#result_emotion_name2 {
-  color: coral;
-  font-size: xx-large;
+#result_hand_gesture {
+  color: black;
 }
 
 .heading {
@@ -26,11 +24,7 @@ span {
   letter-spacing: 10px;
 }
 
-.emotion_name {
-  font-size: 40px;
-}
-
-.emoji {
+.gesture {
   font-size: 48px;
 }
 
